@@ -10,6 +10,7 @@ var concat = require('gulp-concat');
 // Enabling you to compile your Pug templates into HTML
 const pug = require('gulp-pug');
 
+var sourcemaps = require('gulp-sourcemaps');
 
 
 
@@ -23,6 +24,7 @@ function pugtoHTML() {
     .pipe( pug({ pretty: true}))
     // .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest("build"))
+    // to show file name in chrome 
     .pipe(livereload());
 }
 
@@ -31,8 +33,10 @@ function pugtoHTML() {
 function movecss() {
   return gulp
     .src(["src/**/*.css"])
+    .pipe(sourcemaps.init())
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(concat('all.css')) 
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest("build"))
     .pipe(livereload());
 }

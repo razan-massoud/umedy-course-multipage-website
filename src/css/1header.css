@@ -1,0 +1,37 @@
+/* ============
+HEADER
+=============== */
+header{ 
+    background-color: #B4B8AB;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white; 
+    padding-bottom: 1.5rem;
+    padding-top: 1rem; 
+}
+ 
+.header-ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.2rem;
+
+    margin-top: 1.5rem;
+    
+    
+}
+
+.header-ul li{
+    padding: 0 1.5rem;
+}
+
+
+
+
+header a{
+    color: white;
+    
+}

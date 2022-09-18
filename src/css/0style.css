@@ -1,0 +1,142 @@
+html {box-sizing: border-box;} 
+ 
+*, *:before, *:after {box-sizing: inherit;} 
+
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.link:hover{
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+.center{
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.btn{
+    color: black;
+    border: 1px solid  rgb(250, 185, 200);
+    padding: 5px;
+    margin: .5rem;
+    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    transition: all .5s;
+}
+.btn:hover{
+    background-color: rgb(234, 135, 168);
+    color: white;
+    font-size: 1.2rem;
+}
+
+.mt{
+    margin-top: 2rem;
+}
+
+/* ============
+AD AREA
+=============== */
+.ad-area{
+    border: 2px solid rgb(250, 185, 200);
+    border-left: 10px solid rgb(250, 185, 200);
+    border-radius: 1rem;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    line-height:40px;
+}
+
+ol li{
+    list-style: none;
+    margin-top: 25px;
+    font-size: 1.3rem;
+
+}
+ol{
+    counter-reset: plusone;
+}
+
+ol li:before{
+    counter-increment: plusone;
+content: counter(plusone);
+    background-color:rgb(250, 185, 200) ;
+padding: 1px 7px;
+color: white;
+border-radius: 12px;
+margin: 15px;
+font-size: 1.5rem;
+
+}
+
+
+/* ============
+section
+=============== */
+.sec{
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 25%);
+    width: 98%;
+    margin: 2.5rem auto;
+    padding:1%;
+    border-radius: 1rem;
+   
+}
+
+.title{
+    text-align: center;
+    background-color: rgb(160, 160, 160);
+    color: white;
+    padding: 0.9rem 3rem;
+    font-size: 1.6rem;
+    border-radius: 1.5rem;
+    margin: 1rem auto 3rem;
+    letter-spacing: 1.1rem;
+    word-spacing: 2rem;
+}
+
+/* ============
+section 1
+=============== */
+
+.flex{
+    display: flex;
+    justify-content:space-evenly  ;
+    
+
+    
+}
+.left-sec,.right-sec {
+    /* border: 1px solid red; */
+    padding: 2rem;
+    
+    
+}
+.left-sec p{
+    margin: 1.5rem;
+    word-spacing: .2rem;
+    line-height: 1.5rem;
+}
+.flex h3{
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    word-spacing: 1rem;
+}
+.right-sec img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid  rgb(250, 185, 200);
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 15%);
+    margin-bottom: 1.8rem;
+
+}
+
+/* ============
+main
+=============== */
+

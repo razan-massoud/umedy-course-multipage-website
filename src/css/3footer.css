@@ -1,0 +1,44 @@
+footer{
+    
+    background-color: #B4B8AB;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white; 
+    padding-bottom: 1.5rem;
+    padding-top: 1rem; 
+}
+.family-bottom-page{
+    
+    background-color: rgb(67, 67, 67);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.family-bottom-page h3{
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    word-spacing: 1rem;
+    margin-bottom: 2rem;
+}
+
+.family-bottom-page ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.family-bottom-page ul li {
+    list-style: none;
+}
+.family-bottom-page ul li a{
+    color: rgb(187, 144, 158);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.family-bottom-page ul li a:hover{
+    color: rgb(231, 231, 231);
+    font-weight: bold;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,52 @@
+@media (max-width:750px){
+
+    .header-ul{
+        flex-direction: column;
+        line-height: 2rem;
+    }
+
+    .title{
+        text-align: center;
+        background-color: rgb(160, 160, 160);
+        color: white;
+        padding: 0.9rem 3rem;
+        font-size: 1rem;
+        border-radius: 1.5rem;
+        margin: 1rem auto 3rem;
+        letter-spacing: .2rem; 
+        word-spacing: 1rem; 
+    }
+    .flex{
+        
+        flex-direction: column-reverse;
+
+}
+    ol li{
+        list-style: none;
+        margin-top: 25px;
+        font-size: 1rem;
+
+
+}
+.family-bottom-page h3{
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+}
+
+.family-bottom-page ul{
+    
+    flex-direction: column;
+    line-height: 2rem;
+    
+}
+
+
+
+
+
+}
+
+
+
+
+
